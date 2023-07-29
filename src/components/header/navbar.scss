@@ -1,0 +1,42 @@
+ul{
+    flex-direction: column !important;
+    width: 100%;
+    
+    padding: 0 !important;
+}
+.nav-item{
+    display: block !important ;
+}
+
+.nav-link{
+    height: 40px !important;
+}
+
+li{
+     
+    
+    :focus{
+        color: #20c997;
+    }
+}
+
+
+a, a:focus{
+    color: #20c997;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.nav-item .nav-link{
+     
+    .nav-link:focus{
+        color: #20c997;
+    }
+}
+
+
+
+
+
+    
