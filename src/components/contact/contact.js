@@ -2,6 +2,7 @@ import React from 'react'
 import SectionTitle from '../common/section-title/section-title'
 import ContactInfo from './contact-info'
 import ContactForm from './contact-form'
+import "./contact.scss"
 
 
 const Contact = () => {
@@ -16,7 +17,7 @@ const Contact = () => {
         <div className="col-md-4 col-xl-6 order-1 order-md-0 text-center text-md-start">
            <ContactInfo/>
         </div>
-        <div className="col-md-8 col-xl-6 order-0 order-md-1">
+        <div className="col-md-8 col-xl-6 order-0 order-md-1 div1">
            
            <ContactForm/>
 

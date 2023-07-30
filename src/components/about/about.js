@@ -18,13 +18,13 @@ const About = () => {
             <p>Çalıştığım diller ve teknolojiler için aşağıda Yetenekler kısmına daha detaylı bakabilirsiniz</p>
             <p>Yaptığım çalışmalar ve projeler için İletişim kısmında Github linkime tıklayarak Github profilime bakabilirsiniz</p>
           </div>
-          <div className="col-lg-5 col-xl-4">
+          <div className="col-lg-5 col-xl-4 div2">
             <div className="ps-lg-4">
               <ul className="list-style-2">
-                <li className=""><span className="fw-600 me-2">İsim:</span>Murat Can Akça</li>
-                <li className=""><span className="fw-600 me-2">Email:</span><a href="mailto:muratcan_akca28@hotmail.com">muratcan_akca28@hotmail.com</a></li>
-                <li className=""><span className="fw-600 me-2">Yaş:</span>25</li>
-                <li className="border-0"><span className="fw-600 me-2">Şehir:</span>İstanbul , Türkiye</li>
+                <li className=""><span className="fw-600 me-2 spanspan">İsim:</span>Murat Can Akça</li>
+                <li className=""><span className="fw-600 me-2 spanspan">Email:</span><a href="mailto:muratcan_akca28@hotmail.com">muratcan_akca28@hotmail.com</a></li>
+                <li className=""><span className="fw-600 me-2 spanspan">Yaş:</span>24</li>
+                <li className="border-0"><span className="fw-600 me-2 spanspan">Şehir:</span>İstanbul , Türkiye</li>
               </ul>
               <a href="pdf/muratcv.pdf" className="btn  rounded-pill">CV İndir</a> </div>
           </div>

@@ -9,7 +9,7 @@ const ContactInfo = () => {
    
    <h2 className="mb-3 text-5 text-uppercase">Adres</h2>
           <p className="text-3 mb-4"> İNÖNÜ MAH. YAŞARDOĞU CAD. <br/>
-          NO: 60 İÇ KAPI NO: 6<br/>
+          
           KÜÇÜKÇEKMECE / İSTANBUL </p>
              
           <p className="text-3 mb-1"><span className="text-primary text-4 me-2 span"><BsFillTelephoneFill/></span>0 (534) 685 07 25</p>

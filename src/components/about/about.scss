@@ -13,3 +13,13 @@ p{
     color: white !important;
     background-color: #27c997;
 }
+
+.spanspan{
+    font-weight: 700 !important;
+}
+
+.div2{
+    @media (max-width: 992px) { 
+        text-align: center  !important;
+ } 
+}

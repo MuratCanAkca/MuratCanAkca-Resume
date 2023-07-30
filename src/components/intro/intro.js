@@ -13,19 +13,19 @@ const Intro = () => {
         <div className="container my-auto">
           <div className="row">
             <div className="col-12 text-center">
-            <p className="text-7 fw-500 text-white mb-2 mb-md-3 p2">Hoşgeldiniz</p>
+            <p className="text-7 fw-500 text-white mb-2 mb-md-3 p2">Welcome</p>
 
             <h1 className='text-white text-18'>
               <TypeAnimation
                 sequence={[
                   
-                  "Bilgisayar Mühendisi",
+                  "Computer Engineer",
                   2000,
-                  "Yazılımcı",
+                  "Software Engineer",
                   2000,
-                  "Web Dizayn",
+                  "Full Stack Developer",
                   2000,
-                  "Full Stack Java",
+                  "Web Designer",
                   2000,
                   () => {
                     console.log("Done Typing");
