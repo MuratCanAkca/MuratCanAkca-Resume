@@ -53,7 +53,7 @@ const Resume = () => {
             
           </div>
         </div> 
-        <div className="text-center mt-5"><a href="pdf/muratcv.pdf" className="btn btn-outline-secondary rounded-pill shadow-none">CV İNDİR <span className="ms-1"><i className="fas fa-download"></i></span></a></div>
+        <div className="text-center mt-5"><a href="pdf/MuratCanAkcaCv.pdf" className="btn btn-outline-secondary rounded-pill shadow-none">CV İNDİR <span className="ms-1"><i className="fas fa-download"></i></span></a></div>
       </div>
     </section>
   )

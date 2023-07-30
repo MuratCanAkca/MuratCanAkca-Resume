@@ -26,7 +26,7 @@ const About = () => {
                 <li className=""><span className="fw-600 me-2 spanspan">Yaş:</span>24</li>
                 <li className="border-0"><span className="fw-600 me-2 spanspan">Şehir:</span>İstanbul , Türkiye</li>
               </ul>
-              <a href="pdf/muratcv.pdf" className="btn  rounded-pill">CV İndir</a> </div>
+              <a href="pdf/MuratCanAkcaCv.pdf" className="btn  rounded-pill">CV İndir</a> </div>
           </div>
         </div>
         <div className="brands-grid separator-border mt-5">
