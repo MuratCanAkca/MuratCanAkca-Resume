@@ -41,3 +41,11 @@ color: white !important ;
     color: #26c997;
     border-color: #20c997;
 }
+
+.section{
+
+    @media (max-width: 992px) { 
+            margin-left: 0 !important;
+     } 
+
+}

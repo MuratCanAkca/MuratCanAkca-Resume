@@ -9,7 +9,7 @@ const Intro = () => {
     <div className="hero-wrap backgro">
       <div className="hero-mask opacity-8 bg-dark"></div>
       <div className="hero-bg parallax " style={{backgroundImage:"url('images/background.jpeg')"}}></div>
-      <div className="hero-content section d-flex min-vh-100">
+      <div className="hero-content section d-flex min-vh-100 divdiv">
         <div className="container my-auto">
           <div className="row">
             <div className="col-12 text-center">
