@@ -47,7 +47,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <a href="#about" className="scroll-down-arrow text-white smooth-scroll"><span className="animated"><BsFillCaretDownFill/></span></a> </div>
+        <a href="#about" className="scroll-down-arrow text-white smooth-scroll aaa"><span className="animated"><BsFillCaretDownFill/></span></a> </div>
     </div>
   </section>
   )

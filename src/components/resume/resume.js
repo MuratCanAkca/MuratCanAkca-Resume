@@ -2,6 +2,7 @@ import React from 'react'
 import SectionTitle from '../common/section-title/section-title'
 import ResumeCard from './resume-card'
 import Skill from './skill'
+import "./resume.scss"
 
 const Resume = () => {
   return (
@@ -10,7 +11,7 @@ const Resume = () => {
       
       <SectionTitle frontText="Kariyer" backText="ÖZGEÇMİŞ"/>
         
-        <div className="row gx-5"> 
+        <div className="row gx-5 div5"> 
          
           <div className="col-md-6">
 
@@ -24,7 +25,7 @@ const Resume = () => {
           
      
           <div className="col-md-6">
-            <h2 className="text-6 fw-600 mb-4">Deneyimler</h2>
+            <h2 className="text-6 fw-600 mb-4">DENEYİMLER</h2>
 
             <ResumeCard date="17/07/2023-18/08/2023" title="Dap Yapı" subTitle="Bilgi İşlem" desc="Stajyer" />
            
@@ -32,8 +33,8 @@ const Resume = () => {
           </div>
         </div>
        
-		<h2 className="text-6 fw-600 mt-4 mb-4">Programlama Dilleri</h2>
-         <div className="row gx-5">
+		<h2 className="text-6 fw-600 mt-4 mb-4 div5">PROGRAMLAMA DİLLERİ</h2>
+         <div className="row gx-5 " >
           <div className="col-md-6">
 
           <Skill name="React Js" value="90" />
