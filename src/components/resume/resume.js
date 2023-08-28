@@ -27,7 +27,8 @@ const Resume = () => {
           <div className="col-md-6">
             <h2 className="text-6 fw-600 mb-4">DENEYİMLER</h2>
 
-            <ResumeCard date="17/07/2023-18/08/2023" title="Dap Yapı" subTitle="Bilgi İşlem" desc="Stajyer" />
+            <ResumeCard date="17/07/2023-18/08/2023" title="Dap Yapı" subTitle="Bilgi İşlem / Stajyer" desc="
+            Referans: Erdem Bozkır 0537 955 77 78" />
            
              
           </div>
