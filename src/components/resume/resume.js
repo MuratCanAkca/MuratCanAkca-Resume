@@ -31,8 +31,8 @@ const Resume = () => {
 
             <div className="bg-white border rounded p-4 mb-4">
                 <p className="badge bg-primary text-2 fw-400">17/07/2023-18/08/2023</p>
-                <h3 className="text-5">Dap Yapı</h3>
-                <p className="text-danger">Bilgi İşlem / Stajyer</p>
+                <h3 className="text-5">Dap Yapı AŞ. | Maltepe-İstanbul</h3>
+                <p className="text-danger">Bilgi İşlem / Stajyer Mühendis</p>
                 <p className="mb-0">Referans: <br/>
                     Erdem Bozkır<br/>
                     Bilgi İşlem Müd. Yar.<br/> 
