@@ -13,10 +13,10 @@ const About = () => {
         <div className="row gy-5">
           <div className="col-lg-7 col-xl-8 text-center text-lg-start">
             <h2 className="text-7 fw-600 mb-3">Ben <span className="span">Murat Can Akça,</span> Bilgisayar Mühendisiyim</h2>
-            <p>Merhabalar , ben Murat. Üniversite mezunuyum. Kendimi sürekli geliştirip, bu gelişimi ve kazandığım tecrübeleri uygulayabileceğim, paylaşabileceğim, vizyon sahibi, sürekli gelişimi kendine hedef edinmiş bir firmada kariyer hayatıma başlamak istiyorum. </p>
-            <p>Üniversite hayatı boyunca daha çok yazılım alanına ilgi duydum ve bu alanda kendimi geliştirip , çalışmalar yaptım. Üniversitede çeşitli otomasyonlar yazdım. Bitirme tezi olarak Rent a Car web sitesi hazırladım </p>
-            <p>Çalıştığım diller ve teknolojiler için aşağıda Yetenekler kısmına daha detaylı bakabilirsiniz</p>
-            <p>Yaptığım çalışmalar ve projeler için İletişim kısmında Github linkime tıklayarak Github profilime bakabilirsiniz</p>
+            <p>Merhabalar , ben Murat. Üniversite mezunuyum. Kendimi sürekli geliştirip, bu gelişimi ve kazandığım tecrübeleri uygulayabileceğim, paylaşabileceğim, vizyon sahibi, sürekli gelişimi kendine hedef edinmiş bir kurumda kariyer hayatıma başlamak istiyorum. </p>
+            <p>Üniversite hayatı boyunca daha çok yazılım alanında kendimi geliştirip , çalışmalar yaptım. Üniversitede çeşitli otomasyonlar yazdım. Üniversite derslerinin yanı sıra Java Full Stack Developer kursu bitirdim ve bu alanda kendimi geliştirmeye devam ettim. Bitirme projesi olarak<a href='https://iste.edu.tr/person/celaleddin-yeroglu' target='blank'>Prof. Dr. Celaleddin Yeroğlu</a>denetiminde Rent A Car sitesi hazırladım</p>
+            <p>Çalıştığım ve uzmanlaştığım alanlar için Yetenekler kısmına bakabilirsiniz</p>
+            <p>Yaptığım projeler için İletişim kısmında bulunan Github linkime tıklayabilirsiniz</p>
           </div>
           <div className="col-lg-5 col-xl-4 div2">
             <div className="ps-lg-4">
@@ -26,7 +26,7 @@ const About = () => {
                 <li className=""><span className="fw-600 me-2 spanspan">Yaş:</span>24</li>
                 <li className="border-0"><span className="fw-600 me-2 spanspan">Şehir:</span>İstanbul , Türkiye</li>
               </ul>
-              <a href="pdf/MuratCanAkcaCv.pdf" className="btn  rounded-pill">CV İndir</a> </div>
+              <a href="pdf/MuratCanAkcaCv.pdf" className="btn btn-outline-secondary rounded-pill">CV İndir</a> </div>
           </div>
         </div>
         <div className="brands-grid separator-border mt-5">

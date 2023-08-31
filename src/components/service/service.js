@@ -11,37 +11,40 @@ const Service = () => {
     <section id="services" className="section bg-light">
     <div className="container px-lg-5"> 
  
-      <SectionTitle frontText="Çalışmalar" backText="YETENEKLERİM"/>
+      <SectionTitle frontText="Uzmanlıklar" backText="YETENEKLER"/>
       
       <div className="row">
         <div className="col-lg-11 mx-auto">
           <div className="row">
             <div className="col-md-6">
 
-            <Services icon={<FaJava/>} title="Java" desc="Öğrendiğim ilk dil olan Java dilinde , OOP mantığı , Lambda kullanımları ve Collection yapılarına hakimim"/>
+            <Services icon={<FaJava/>} title="Java" desc="Core Java , OOP konsept , Lambda Expression ve Collection yapıları"/>
                
             </div>
             <div className="col-md-6">
               
-            <Services icon={<AiFillApi/>} title="API" desc="Backend kısmında yazılan endpointler ile Postman uygulamasında APİ denetimi ve Swagger dökümantasyonu çalışması"/>
+            <Services icon={<AiFillApi/>} title="API" desc="JSON , Swagger dökümantasyonu , Postman endpoint denetimi"/>
             </div>
             <div className="col-md-6">
               
-            <Services icon={<BsFillDatabaseFill/>} title="Veritabanı" desc="PostgreSQL , MySQL , MsSQL , MongoDB ile çalıştım. SQL dilinide hakimim. CRUD işlemleri ve inner join sorguları "/>
+            <Services icon={<BsFillDatabaseFill/>} title="Database / Veritabanı" desc="SQL sorguları , Inner Join sorguları , Database Management , View ve Trigger Yapıları , MySQL , MsSQL , PostgreSQL , MongoDB"/>
             </div>
+
             <div className="col-md-6">
               
-            <Services icon={<DiCodeBadge/>} title="Backend" desc="Spring ile MVC yapısı kullanarak Restful Backend tasarımı. Hibernate ve JDBC ile veritabanı bağlantısı. Token Bearer ile backend güvenliği "/>
-            
-            </div>
-            <div className="col-md-6">
-              
-            <Services icon={<BsFillPaletteFill/>} title="Web Dizayn" desc="HTML , CSS , SCSS , BOOTSTRAP , JAVASCRİPT ile web dizaynı tasarımları ve çalışmaları"/>
+            <Services icon={<BsFillPaletteFill/>} title="Web Designer / Frontend" desc="Html , Css , Bootstrap , JavaScript ile web dizaynı , Sass ve Scss kullanımları , Reactstrap yapıları"/>
  
             </div>
+
             <div className="col-md-6">
               
-            <Services icon={<FaReact/>} title="Frontend" desc="React dili ile componentler tasarlayarak , Backend bağlantılı dinamik web sitesi çalışmaları "/>
+            <Services icon={<DiCodeBadge/>} title="Backend" desc="Spring ile Restful Backend yapımı , MVC mimarisi ,  Hibernate ile veritabanı bağlantısı , Token Bearer authorization ve Yetkilendirme "/>
+            
+            </div>
+
+            <div className="col-md-6">
+              
+            <Services icon={<FaReact/>} title="React Js / Frontend" desc="React Js , React Redux , Axios ile Backend bağlantılı dinamik web sayfası yapımı , Template ile yetkili sayfalar , React Router ile yönlendirme işlemleri "/>
             
             </div>
           </div>

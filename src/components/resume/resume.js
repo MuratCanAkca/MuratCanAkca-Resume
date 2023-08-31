@@ -18,7 +18,7 @@ const Resume = () => {
             <h2 className="text-6 fw-600 mb-4">EĞİTİM</h2>
           
             <ResumeCard date="2017-2022" title="İskenderun Teknik Üniversitesi" subTitle="Bilgisayar Mühendisliği" desc="" />
-            <ResumeCard date="2013-2017" title="Ihlamur Temel Lisesi" subTitle="" desc="" />
+            <ResumeCard date="2013-2017" title="Ihlamur Temel Lisesi" subTitle="Öğrenci / Alan yok" desc="" />
             
            
           </div>
@@ -27,8 +27,17 @@ const Resume = () => {
           <div className="col-md-6">
             <h2 className="text-6 fw-600 mb-4">DENEYİMLER</h2>
 
-            <ResumeCard date="17/07/2023-18/08/2023" title="Dap Yapı" subTitle="Bilgi İşlem / Stajyer" desc="
-            Referans: Erdem Bozkır 0537 955 77 78" />
+           
+
+            <div className="bg-white border rounded p-4 mb-4">
+                <p className="badge bg-primary text-2 fw-400">17/07/2023-18/08/2023</p>
+                <h3 className="text-5">Dap Yapı</h3>
+                <p className="text-danger">Bilgi İşlem / Stajyer</p>
+                <p className="mb-0">Referans: <br/>
+                    Erdem Bozkır<br/>
+                    Bilgi İşlem Müd. Yar.<br/> 
+                    Tel : 0537 955 77 78</p>
+              </div>
            
              
           </div>
