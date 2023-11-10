@@ -27,6 +27,8 @@ const Intro = () => {
                   2000,
                   "Web Designer",
                   2000,
+                  "Backend",
+                  2000,
                   () => {
                     console.log("Done Typing");
                   },
