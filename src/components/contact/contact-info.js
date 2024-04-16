@@ -4,6 +4,7 @@ import {AiFillMail} from "react-icons/ai"
 import "./contact-info.scss"
 
 const ContactInfo = () => {
+  /*  */
   return (
    <>
    
